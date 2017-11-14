@@ -22,6 +22,10 @@ dump annotation objects to flat files and merge in this way.
 You'll find the subsequent published revision of these software and methods described in the 2010 SIGS paper
 "The JCVI standard operating procedure for annotating metagenomic shotgun sequencing data" under 'docs'.
 
+- Brett Whitty, 2017
+
+(Contents of original README follows)
+--
 
 JCVI Metagenomics Annotation Pipline
 -------------------------------------------------------
