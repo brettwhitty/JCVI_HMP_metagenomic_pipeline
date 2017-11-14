@@ -1,5 +1,7 @@
 #!/usr/local/bin/perl
 
+## Brett Whitty, JCVI, 2007
+
 ## contains class variables that define recognized annotation types
 
 package CAMERA::AnnotationData::PolypeptideDataTypes;
