@@ -1,3 +1,28 @@
+Notes on Origin as CAMERA Metagenomic Annotation Pipeline
+=========================================================
+
+I've forked this repo from one deposited by Joshua Orvis to Github.
+
+Much of the code here was developed by Brett Whitty at JCVI in 2007 as part of the CAMERA metagenomic annotation pipeline,
+and presumably was exported from JCVI's internal SVN repository where I left it as of January 2008.
+
+The development of the CAMERA metagenomic annotation pipeline and related infrastructure leading up to the CAMERA 1.0 release
+in December/January of 2007/8 was described in an internal presentation I gave before departing JCVI in Jan 2008 that I've made available
+on Slideshare:
+
+https://www.slideshare.net/BrettWhitty/camera-metagenomic-annotation-pipeline
+
+Highlights include my idea to decouple the filtering of analysis results to prepare filtered/canonized
+annotation data types (ie: parsing step) from the application of an annotation rules set/hierarchy to prepare "final"
+annotation (ie: rules step); quick and dirty implementation of the annotation rules using extendable operators and handler functions;
+general object-oriented approach, which made sense to me at the time and I think proved to make the code pretty flexible for subsequent
+use; fun use of GNU sort for merging results from different analysis types before applying rules --- was hugely faster to dump to
+dump annotation objects to flat files and merge in this way.
+
+You'll find the subsequent published revision of these software and methods described in the 2010 SIGS paper
+"The JCVI standard operating procedure for annotating metagenomic shotgun sequencing data" under 'docs'.
+
+
 JCVI Metagenomics Annotation Pipline
 -------------------------------------------------------
 File Structure
