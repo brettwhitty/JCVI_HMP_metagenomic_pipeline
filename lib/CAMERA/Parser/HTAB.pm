@@ -1,5 +1,7 @@
 #!/usr/local/bin/perl
 
+## Brett Whitty, JCVI, 2007
+
 ##################################################################
 # Description: HTAB.pm
 #
