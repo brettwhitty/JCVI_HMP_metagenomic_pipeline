@@ -5,8 +5,7 @@ I've forked this repo from one deposited by Joshua Orvis to Github.
 
 Much of the code here was developed by Brett Whitty at JCVI in 2007 as part of the CAMERA metagenomic annotation pipeline, and presumably was exported from JCVI's internal SVN repository where I left it as of January 2008.
 
-The development of the CAMERA metagenomic annotation pipeline and related infrastructure leading up to the CAMERA 1.0 release in December/January of 2007/8 was described in an internal presentation I gave before departing JCVI in Jan 2008 that I've made available
-on Slideshare:
+The development of the CAMERA metagenomic annotation pipeline and related infrastructure leading up to the CAMERA 1.0 release in December/January of 2007/8 was described in an internal presentation I gave before departing JCVI in Jan 2008 that I've made available on Slideshare:
 
 https://www.slideshare.net/BrettWhitty/camera-metagenomic-annotation-pipeline
 
